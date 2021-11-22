@@ -6,10 +6,9 @@ export default function cards(props) {
     <>
       <h2 className="cards-title">{props.cards.title}</h2>
       <div className="cards-con">
-        <Card />
-        <Card />
-        <Card />
-        <Card />
+        {props.cards.books.map((book) => {
+          return <Card card={book} />;
+        })}
       </div>
     </>
   );
