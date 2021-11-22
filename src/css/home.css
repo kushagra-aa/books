@@ -10,23 +10,23 @@
 }
 /* home top css */
 .home-top-card {
-  width: 670px;
-  height: 284px;
+  width: 41.875rem;
+  height: 17.75rem;
   background: #d93d3e;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 20px;
+  box-shadow: 0px 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+  border-radius: 1.25rem;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .home-top-card-img {
-  width: 395px;
-  height: 284px;
-  border-radius: 20px 0 0 20px;
+  width: 24.688rem;
+  height: 17.75rem;
+  border-radius: 1.25rem 0 0 1.25rem;
 }
 .home-top-card-text {
-  width: 275px;
-  height: 284px;
+  width: 17.188rem;
+  height: 17.75rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -34,28 +34,28 @@
   gap: 2rem;
 }
 .home-top-card-title {
-  width: 233px;
-  height: 65px;
+  width: 14.563rem;
+  height: 4.063rem;
   font-weight: normal;
-  font-size: 30px;
+  font-size: 1.875rem;
   text-align: center;
   text-transform: capitalize;
   color: #fff;
 }
 .home-top-card-detail {
   font-weight: 300;
-  font-size: 20px;
+  font-size: 1.25rem;
   color: #fff;
 }
 .home-top-card-btn {
-  width: 120px;
-  height: 43px;
+  width: 7.5rem;
+  height: 2.688rem;
   background: #9c0001;
   color: #fff;
   border: none;
   font-weight: 500;
-  font-size: 20px;
-  border-radius: 10px;
+  font-size: 1.25rem;
+  border-radius: 0.625rem;
   transition: all 0.5s ease-in-out;
   cursor: pointer;
 }
@@ -67,39 +67,39 @@
   grid-template-columns: repeat(5, 1fr);
 }
 .home-mid-card {
-  width: 80px;
-  height: 80px;
+  width: 5rem;
+  height: 5rem;
   background: #e0f0fa;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
   display: flex;
   justify-content: center;
   align-items: center;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 1.563rem;
   text-transform: capitalize;
   text-align: center;
   padding: 0.2em;
   transition: all 0.5s ease-in-out;
-  border-radius: 20px;
+  border-radius: 1.25rem;
 }
 .home-mid-card:hover {
   transform: translateY(-0.5em);
 }
 /* home btm css*/
 .home-btm-card {
-  width: 400px;
-  height: 200px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 20px;
+  width: 25rem;
+  height: 12.5rem;
+  box-shadow: 0px 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+  border-radius: 1.25rem;
   transition: all 0.5s ease-in-out;
 }
 .home-btm-card:hover {
   transform: translateY(0.5em);
 }
 .home-btm-img {
-  width: 400px;
-  height: 200px;
-  border-radius: 20px;
+  width: 25rem;
+  height: 12.5rem;
+  border-radius: 1.25rem;
 }
 
 .home-btm-card-text {
@@ -108,20 +108,20 @@
   align-items: center;
   justify-content: center;
   position: relative;
-  bottom: 200px;
+  bottom: 12.5rem;
   color: #fff;
   font-weight: 300;
-  font-size: 40px;
+  font-size: 2.5rem;
   text-transform: capitalize;
-  width: 400px;
-  height: 200px;
+  width: 25rem;
+  height: 12.5rem;
   transition: all 0.5s ease-in-out;
-  border-radius: 20px;
+  border-radius: 1.25rem;
 }
 .home-btm-card-text:hover {
-  backdrop-filter: blur(4px);
+  backdrop-filter: blur(0.25rem);
 }
 .home-btm-card-title {
   font-weight: normal;
-  font-size: 50px;
+  font-size: 3.125rem;
 }

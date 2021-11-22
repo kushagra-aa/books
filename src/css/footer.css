@@ -3,7 +3,7 @@ footer {
   left: 0;
   bottom: 0;
   width: 100vw;
-  height: 50px;
+  height: 3.125rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -12,12 +12,12 @@ footer {
 }
 .foot-item {
   font-weight: 300;
-  font-size: 20px;
+  font-size: 1.25rem;
   letter-spacing: 0.2em;
 }
 .foot-center {
   font-weight: normal;
-  font-size: 25px;
+  font-size: 1.563rem;
 }
 .foot-left,
 .foot-right {
