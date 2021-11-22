@@ -1,0 +1,127 @@
+/* home containers css */
+.home-con {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4rem;
+  margin-bottom: 2em;
+  user-select: none;
+  justify-content: center;
+  align-items: center;
+}
+/* home top css */
+.home-top-card {
+  width: 670px;
+  height: 284px;
+  background: #d93d3e;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home-top-card-img {
+  width: 395px;
+  height: 284px;
+  border-radius: 20px 0 0 20px;
+}
+.home-top-card-text {
+  width: 275px;
+  height: 284px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.home-top-card-title {
+  width: 233px;
+  height: 65px;
+  font-weight: normal;
+  font-size: 30px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #fff;
+}
+.home-top-card-detail {
+  font-weight: 300;
+  font-size: 20px;
+  color: #fff;
+}
+.home-top-card-btn {
+  width: 120px;
+  height: 43px;
+  background: #9c0001;
+  color: #fff;
+  border: none;
+  font-weight: 500;
+  font-size: 20px;
+  border-radius: 10px;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+.home-top-card-btn:hover {
+  filter: brightness(90%);
+}
+/* home-mid css */
+.home-mid {
+  grid-template-columns: repeat(5, 1fr);
+}
+.home-mid-card {
+  width: 80px;
+  height: 80px;
+  background: #e0f0fa;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 25px;
+  text-transform: capitalize;
+  text-align: center;
+  padding: 0.2em;
+  transition: all 0.5s ease-in-out;
+  border-radius: 20px;
+}
+.home-mid-card:hover {
+  transform: translateY(-0.5em);
+}
+/* home btm css*/
+.home-btm-card {
+  width: 400px;
+  height: 200px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  transition: all 0.5s ease-in-out;
+}
+.home-btm-card:hover {
+  transform: translateY(0.5em);
+}
+.home-btm-img {
+  width: 400px;
+  height: 200px;
+  border-radius: 20px;
+}
+
+.home-btm-card-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: 200px;
+  color: #fff;
+  font-weight: 300;
+  font-size: 40px;
+  text-transform: capitalize;
+  width: 400px;
+  height: 200px;
+  transition: all 0.5s ease-in-out;
+  border-radius: 20px;
+}
+.home-btm-card-text:hover {
+  backdrop-filter: blur(4px);
+}
+.home-btm-card-title {
+  font-weight: normal;
+  font-size: 50px;
+}
