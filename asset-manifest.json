@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/nogozo/static/css/main.50ed2475.chunk.css",
+    "main.js": "/nogozo/static/js/main.8ff5e7ce.chunk.js",
+    "main.js.map": "/nogozo/static/js/main.8ff5e7ce.chunk.js.map",
+    "runtime-main.js": "/nogozo/static/js/runtime-main.213f2841.js",
+    "runtime-main.js.map": "/nogozo/static/js/runtime-main.213f2841.js.map",
+    "static/js/2.60f2265c.chunk.js": "/nogozo/static/js/2.60f2265c.chunk.js",
+    "static/js/2.60f2265c.chunk.js.map": "/nogozo/static/js/2.60f2265c.chunk.js.map",
+    "static/js/3.ca39ef66.chunk.js": "/nogozo/static/js/3.ca39ef66.chunk.js",
+    "static/js/3.ca39ef66.chunk.js.map": "/nogozo/static/js/3.ca39ef66.chunk.js.map",
+    "index.html": "/nogozo/index.html",
+    "static/css/main.50ed2475.chunk.css.map": "/nogozo/static/css/main.50ed2475.chunk.css.map",
+    "static/js/2.60f2265c.chunk.js.LICENSE.txt": "/nogozo/static/js/2.60f2265c.chunk.js.LICENSE.txt",
+    "static/media/account.0ba78c04.svg": "/nogozo/static/media/account.0ba78c04.svg",
+    "static/media/cart.7da57987.svg": "/nogozo/static/media/cart.7da57987.svg",
+    "static/media/favorite.bd208ca1.svg": "/nogozo/static/media/favorite.bd208ca1.svg",
+    "static/media/home.bb8258e8.svg": "/nogozo/static/media/home.bb8258e8.svg",
+    "static/media/nogozo.a1294a14.png": "/nogozo/static/media/nogozo.a1294a14.png",
+    "static/media/search.23bdfeed.svg": "/nogozo/static/media/search.23bdfeed.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.213f2841.js",
+    "static/js/2.60f2265c.chunk.js",
+    "static/css/main.50ed2475.chunk.css",
+    "static/js/main.8ff5e7ce.chunk.js"
+  ]
+}
