@@ -101,27 +101,27 @@ let isc = {
   books: [
     {
       img: "https://images.unsplash.com/photo-1509021436665-8f07dbf5bf1d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
-      title: "Harry Porter 1",
-      price: "500",
-      discount: "50.1",
+      title: "ISC Maths",
+      price: "800",
+      discount: "20",
     },
     {
       img: "https://images.unsplash.com/photo-1551029506-0807df4e2031?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1334&q=80",
-      title: "Harry Porter 2",
-      price: "200",
-      discount: "60",
-    },
-    {
-      img: "https://images.unsplash.com/photo-1491841573634-28140fc7ced7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-      title: "Harry Porter 3",
-      price: "700",
+      title: "ISC Science",
+      price: "400",
       discount: "50",
     },
     {
-      img: "https://images.unsplash.com/photo-1476275466078-4007374efbbe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1129&q=80",
-      title: "Harry Porter 4",
+      img: "https://images.unsplash.com/photo-1491841573634-28140fc7ced7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      title: "ISC English",
       price: "500",
-      discount: "20",
+      discount: "40",
+    },
+    {
+      img: "https://images.unsplash.com/photo-1476275466078-4007374efbbe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1129&q=80",
+      title: "ISC Hindi",
+      price: "900",
+      discount: "10",
     },
   ],
 };

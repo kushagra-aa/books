@@ -1,0 +1,110 @@
+@media only screen and (max-width: 565px) {
+  /* nav bar css*/
+  nav {
+    display: grid;
+    grid-template-columns: repeat(5, 2fr);
+    height: auto;
+    max-width: 95vw;
+    justify-items: center;
+    align-items: center;
+    padding: 0.5em;
+    gap: 0.5rem;
+  }
+  .nav-item {
+    margin: 0;
+    width: 1.875rem;
+  }
+  .logo {
+    width: 4.188rem;
+  }
+  .nav-item-links img {
+    display: flex;
+  }
+  .nav-item-links .nav-link {
+    display: none;
+  }
+  /* search bar css */
+  .search-bar {
+    order: 6;
+    width: 4rem;
+  }
+  .search-btn {
+    height: 2rem;
+  }
+  .container {
+    width: 100vw;
+    padding: 2em 0 !important;
+  }
+  /* home genreal css*/
+  .home-con {
+    grid-template-columns: repeat(1, 0fr);
+    justify-items: center;
+  }
+  /* home top css*/
+  .home-top-card {
+    width: 21rem;
+    height: 16rem;
+  }
+
+  .home-top-card-img {
+    height: 16rem;
+    width: 10rem;
+  }
+  .home-top-card-text {
+    height: 16rem;
+    width: 11rem;
+  }
+  .home-top-card-title {
+    width: 11rem;
+    font-size: 1.8rem;
+  }
+  /* home mid css*/
+  .home-mid {
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+  }
+  .home-mid-card {
+    height: 4rem;
+    width: 4rem;
+    font-size: 1rem;
+  }
+  /* home btm css */
+  .home-btm-card,
+  .home-btm-img,
+  .home-btm-card-text {
+    width: 22rem;
+  }
+  /* cards css*/
+  .cards-con {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  /* card css */
+  .card {
+    width: 11rem;
+    height: 17.8rem;
+  }
+  .card img {
+    width: 11rem;
+    height: 7rem;
+  }
+  .card-text {
+    width: 10rem;
+  }
+  .card-text {
+    padding: 0 0.5rem;
+  }
+  footer {
+    height: 10rem;
+    flex-direction: column;
+    padding: 0;
+    gap: 1em;
+  }
+  .foot-left,
+  .foot-right {
+    position: relative;
+    top: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+  }
+}
