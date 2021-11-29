@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "./../assets/nogozo.png";
+import Logo from "./../assets/books.png";
 import HomeIcon from "./../assets/icons/home.svg";
 import AccountIcon from "./../assets/icons/account.svg";
 import CartIcon from "./../assets/icons/cart.svg";
