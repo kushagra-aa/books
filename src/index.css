@@ -1,13 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shanti&display=swap");
+@import url("./css/colors.css");
 @import url("./css/header.css");
 @import url("./css/footer.css");
 @import url("./css/home.css");
-@import url("./css/cards.css");
-@import url("./css/card.css");
 @import url("./css/resp.css");
 
 * {
-  font-family: "Roboto", sans-serif;
+  font-family: "Shanti", sans-serif;
 }
 body {
   margin: 0;

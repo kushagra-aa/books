@@ -3,7 +3,7 @@ footer {
   left: 0;
   bottom: 0;
   width: 100vw;
-  height: 3.125rem;
+  height: rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -16,22 +16,28 @@ footer {
   letter-spacing: 0.2em;
 }
 .foot-center {
+  text-align: center;
   font-weight: normal;
-  font-size: 1.563rem;
+  font-size: 1.5rem;
+}
+.foot-center .foot-top {
+  text-transform: uppercase;
+}
+.foot-center a {
+  color: var(--accent);
 }
 .foot-left,
 .foot-right {
-  position: relative;
   cursor: pointer;
+  text-transform: capitalize;
 }
 
 .foot-left {
-  right: 25em;
-  text-transform: capitalize;
+  margin-right: 20em;
+  text-align: left;
 }
 .foot-right {
-  left: 23em;
-  display: flex;
+  margin-left: 20em;
   flex-direction: column;
-  text-decoration: underline;
+  text-align: right;
 }

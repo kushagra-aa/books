@@ -4,7 +4,7 @@
     display: grid;
     grid-template-columns: repeat(5, 2fr);
     height: auto;
-    max-width: 95vw;
+    max-width: 97vw;
     justify-items: center;
     align-items: center;
     padding: 0.5em;
@@ -14,8 +14,12 @@
     margin: 0;
     width: 1.875rem;
   }
+  .logo-con {
+    font-size: 0px;
+  }
   .logo {
-    width: 4.188rem;
+    width: 3rem;
+    height: 3rem;
   }
   .nav-item-links img {
     display: flex;
@@ -41,14 +45,17 @@
     justify-items: center;
   }
   /* home top css*/
+  .home-top {
+    gap: 0;
+  }
   .home-top-card {
-    width: 21rem;
+    width: 90vw;
     height: 16rem;
   }
 
   .home-top-card-img {
-    height: 16rem;
-    width: 10rem;
+    height: 10rem;
+    width: 90vw;
   }
   .home-top-card-text {
     height: 16rem;

@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "./../assets/books.png";
+import Logo from "./../assets/logo.png";
 import HomeIcon from "./../assets/icons/home.svg";
 import AccountIcon from "./../assets/icons/account.svg";
 import CartIcon from "./../assets/icons/cart.svg";
@@ -10,7 +10,10 @@ export default function Header() {
   return (
     <>
       <nav>
-        <img src={Logo} alt="logo" className="logo nav-item" />
+        <div className="logo-con nav-item">
+          <img src={Logo} alt="logo" className="logo" />
+          books
+        </div>
         <div className="nav-item nav-item-links">
           <img src={HomeIcon} alt="HomeIcon" className="nav-icon" />
           <div className="nav-link">home</div>
