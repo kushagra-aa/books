@@ -1,0 +1,13 @@
+.cards-title {
+  font-weight: normal;
+  font-size: 50px;
+  width: 90vw;
+  text-align: left;
+}
+.cards-con {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 4rem;
+}

@@ -1,0 +1,99 @@
+.me {
+  height: 500px;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "made with with with"
+    "pic name name name"
+    "pic bio bio bio"
+    "pic btn1 btn2 btn3";
+  justify-items: center;
+  align-items: center;
+  background: var(--secondary);
+  box-shadow: inset 0px 0px 15px 5px rgba(0, 0, 0, 0.4);
+  padding: 5em;
+}
+.me * {
+  margin: 0;
+  user-select: none;
+}
+.me h5 {
+  font-size: 20px;
+  grid-area: with;
+  letter-spacing: 0.1em;
+  text-transform: capitalize;
+  color: var(--primary);
+}
+.me h3 {
+  grid-area: made;
+  font-size: 30px;
+  letter-spacing: 0.1em;
+  text-transform: capitalize;
+  color: var(--white);
+}
+.me h4 {
+  grid-area: name;
+  font-size: 50px;
+  letter-spacing: 0.4em;
+  text-transform: capitalize;
+  color: var(--accent);
+}
+.me-pic {
+  grid-area: pic;
+}
+.me img {
+  border-radius: 100%;
+  width: 288px;
+  height: 288px;
+  border: 1px solid var(--accent);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.3));
+  transition: all 0.5s ease-in-out;
+}
+.me img:hover {
+  transform: translateY(-1em);
+}
+.me p {
+  grid-area: bio;
+  width: 80%;
+  font-size: 30px;
+  line-height: 100%;
+  letter-spacing: 0.1em;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--primary);
+}
+.me-btn {
+  width: 330px;
+  height: 66px;
+  mix-blend-mode: normal;
+  border-radius: 40px;
+  background: var(--primary);
+  color: var(--accent);
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border: none;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+.me-btn:hover {
+  transform: translateY(-1em);
+}
+.me-btn-1 {
+  grid-area: btn1;
+}
+.me-btn-2 {
+  grid-area: btn2;
+  background: var(--accent);
+  color: var(--primary);
+}
+.me-btn-2:hover {
+  transform: translateY(1em);
+}
+.me-btn-3 {
+  grid-area: btn3;
+}

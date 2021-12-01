@@ -1,0 +1,82 @@
+.help {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1em;
+  margin-top: 5em;
+  margin-bottom: 6em;
+}
+.help h4 {
+  color: var(--secondary);
+  font-size: 30px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  transition: all 0.5s ease-in-out;
+  user-select: none;
+  margin: 0;
+}
+.help h4:hover {
+  border-bottom: 2px solid var(--secondary);
+}
+.help h3 {
+  font-size: 60px;
+  line-height: 76px;
+  letter-spacing: 0.1em;
+  text-transform: capitalize;
+  color: var(--accent);
+  width: 60%;
+  text-align: center;
+  margin: 0;
+  user-select: none;
+  transition: all 0.2s ease-in-out;
+}
+.help h3:hover {
+  letter-spacing: 0.2em;
+}
+.help p {
+  font-weight: normal;
+  font-size: 20px;
+  letter-spacing: 0.1em;
+  color: var(--primary);
+  user-select: none;
+}
+.help-cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5em;
+}
+.help-cards-card {
+  padding: 3em;
+  width: 425px;
+  height: 189px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  background: var(--primary);
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  gap: 2em;
+  transition: all 0.7s ease-in-out;
+}
+.help-cards-card * {
+  margin: 0;
+}
+.help-cards-card h5 {
+  font-size: 20px;
+  letter-spacing: 0.7em;
+  text-transform: uppercase;
+  color: var(--white);
+  user-select: none;
+}
+.help-cards-card p {
+  font-size: 30px;
+  letter-spacing: 0.1em;
+  color: var(--black);
+}
+.help-cards-card:hover {
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.5);
+  transform: translateY(-1em);
+}
