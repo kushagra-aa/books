@@ -35,9 +35,11 @@
   .search-btn {
     height: 2rem;
   }
+  /* body css */
   .container {
     width: 100vw;
-    padding: 2em 0 !important;
+    padding: 2em 0 0 0 !important;
+    overflow: hidden;
   }
   /* home genreal css*/
   .home-con {
@@ -47,43 +49,43 @@
   /* home top css*/
   .home-top {
     gap: 0;
+    height: auto;
+    padding: 5em 0;
   }
   .home-top-card {
     width: 90vw;
-    height: 16rem;
+    height: 15rem;
   }
-
   .home-top-card-img {
-    height: 10rem;
+    height: 9rem;
     width: 90vw;
   }
-  .home-top-card-text {
-    height: 16rem;
-    width: 11rem;
+  /* home features css */
+  .features {
+    flex-direction: column;
   }
-  .home-top-card-title {
-    width: 11rem;
-    font-size: 1.8rem;
-  }
-  /* home mid css*/
+  /* home authors css*/
   .home-mid {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr) !important;
     justify-items: center;
+    margin-bottom: 5em;
+    grid-gap: 7em !important;
   }
   .home-mid-card {
     height: 4rem;
     width: 4rem;
     font-size: 1rem;
   }
-  /* home btm css */
-  .home-btm-card,
-  .home-btm-img,
-  .home-btm-card-text {
+  /* genre css */
+  .home-genre-card,
+  .home-genre-card img,
+  .home-genre-card-text {
     width: 22rem;
   }
   /* cards css*/
   .cards-con {
     grid-template-columns: repeat(2, 1fr);
+    gap: 2em;
   }
   /* card css */
   .card {
@@ -92,26 +94,85 @@
   }
   .card img {
     width: 11rem;
-    height: 7rem;
+    height: 17.8rem;
   }
   .card-text {
     width: 10rem;
-  }
-  .card-text {
     padding: 0 0.5rem;
   }
-  footer {
+  .card-title {
+    font-size: 1.5rem;
+  }
+  /* help css */
+  .help h4 {
+    font-size: 1.3em;
+  }
+  .help h3 {
+    font-size: 2em;
+    margin: 0;
+    width: 70%;
+  }
+  .help h3:hover {
+    width: 80%;
+  }
+  .help p {
+    text-align: center;
+    width: 70%;
+  }
+  .help-cards {
+    flex-direction: column;
+  }
+  .help-cards-card {
+    width: 17rem;
+  }
+  /* me css */
+  .me {
+    grid-template-rows: repeat(7, 0.5fr);
+    grid-template-columns: repeat(2, 0.5fr);
+    grid-template-areas:
+      "made with"
+      "pic pic"
+      "name name"
+      "bio bio"
+      "btn1 btn1"
+      "btn2 btn2"
+      "btn3 btn3";
+    /* justify-content: center; */
+    grid-gap: 1.3em 0;
+    margin-bottom: 0;
+  }
+  .me h5 {
+    font-size: 1rem;
+  }
+  .me h3 {
+    font-size: 1.5rem;
+  }
+  .me h4 {
+    font-size: 2rem;
+    width: 100%;
+    text-align: center;
+  }
+  .me img {
     height: 10rem;
+    width: 10rem;
+  }
+  .me p {
+    font-size: 1.4rem;
+    width: 70%;
+  }
+  .me-btn {
+    font-size: 1.5rem;
+    width: 10em;
+    padding: 0.5rem;
+  }
+  /* foot css */
+  footer {
+    height: 15rem;
     flex-direction: column;
     padding: 0;
     gap: 1em;
   }
-  .foot-left,
-  .foot-right {
-    position: relative;
-    top: 0;
-    right: 0;
-    left: 0;
+  .foot-item {
     text-align: center;
   }
 }

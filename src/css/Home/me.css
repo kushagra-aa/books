@@ -1,5 +1,4 @@
 .me {
-  height: 500px;
   width: 100vw;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -66,7 +65,6 @@
 }
 .me-btn {
   width: 330px;
-  height: 66px;
   mix-blend-mode: normal;
   border-radius: 40px;
   background: var(--primary);
@@ -79,21 +77,24 @@
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   cursor: pointer;
   transition: all 0.5s ease-in-out;
+  padding: 0.5em 0;
 }
 .me-btn:hover {
   transform: translateY(-1em);
 }
-.me-btn-1 {
+.me-btn-1-con {
   grid-area: btn1;
 }
 .me-btn-2 {
-  grid-area: btn2;
   background: var(--accent);
   color: var(--primary);
 }
 .me-btn-2:hover {
   transform: translateY(1em);
 }
-.me-btn-3 {
+.me-btn-2-con {
+  grid-area: btn2;
+}
+.me-btn-3-con {
   grid-area: btn3;
 }

@@ -1,10 +1,10 @@
 /* home genre css*/
 .home-genre {
   width: 100vw;
-  height: 320px;
   box-shadow: inset 0px 0px 15px 5px rgba(0, 0, 0, 0.2);
   background: var(--primary);
   justify-items: center;
+  padding: 3em 0;
 }
 .home-genre-card {
   width: 25rem;

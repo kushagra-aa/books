@@ -26,12 +26,14 @@ export default function Me() {
           target="_blank"
           href="https://kushagra-aa.github.io/portfolio/#about"
           rel="noreferrer"
+          className="me-btn-1-con"
         >
           <button className="me-btn me-btn-1">more about me</button>
         </a>
         <a
           target="_blank"
           href="https://kushagra-aa.github.io/portfolio/#contact"
+          className="me-btn-2-con"
           rel="noreferrer"
         >
           <button className="me-btn me-btn-2">contact me</button>
@@ -39,6 +41,7 @@ export default function Me() {
         <a
           target="_blank"
           href="https://kushagra-aa.github.io/portfolio/#projects"
+          className="me-btn-3-con"
           rel="noreferrer"
         >
           <button className="me-btn me-btn-3">more by Me</button>

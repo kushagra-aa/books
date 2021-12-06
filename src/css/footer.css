@@ -3,12 +3,13 @@ footer {
   left: 0;
   bottom: 0;
   width: 100vw;
-  height: rem;
+  height: 5rem;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 0.2em 1em;
   background: #dff1fd;
+  gap: 25em;
 }
 .foot-item {
   font-weight: 300;
@@ -33,11 +34,9 @@ footer {
 }
 
 .foot-left {
-  margin-right: 20em;
   text-align: left;
 }
 .foot-right {
-  margin-left: 20em;
   flex-direction: column;
   text-align: right;
 }
