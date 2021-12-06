@@ -6,11 +6,9 @@ Book Store Website, Made using ReactJS
 
 Built with 🤍 For You!
 
-<a target="_blank" href="https://kushagra-aa.github.io/books/">
-![image](https://user-images.githubusercontent.com/68841296/144818957-9ceb1365-79a9-488e-938a-db50c62b406c.png)
+<a target="_blank" href="https://kushagra-aa.github.io/books/">![image](https://user-images.githubusercontent.com/68841296/144818957-9ceb1365-79a9-488e-938a-db50c62b406c.png)
   </a>
-  <a target="_blank" href="https://www.behance.net/gallery/132383397/Books">
-![image](https://user-images.githubusercontent.com/68841296/144819037-a66b2ab3-b47a-4c05-ab97-0b00636aba4d.png)
+  <a target="_blank" href="https://www.behance.net/gallery/132383397/Books">![image](https://user-images.githubusercontent.com/68841296/144819037-a66b2ab3-b47a-4c05-ab97-0b00636aba4d.png)
 </a>
 
 ## Screenshots
